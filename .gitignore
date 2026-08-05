@@ -1,0 +1,32 @@
+# Credentials and local configuration
+.env
+.env.*
+*.env
+*.token
+*token*
+*.pem
+*.key
+*.crt
+
+# Unreleased manuscripts and publication exports
+*paper*
+*Paper*
+*PAPER*
+*.pdf
+*.pdf.md
+*.tex
+*.docx
+
+# Archives and generated files
+*.zip
+*.tgz
+*.tar
+*.tar.gz
+*.log
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+build/
+dist/
